@@ -123,7 +123,6 @@ class Board extends Component {
               {this.makeTable()}
             </div>
           )}
-        <i className='fas fa-lg fa-question-circle'></i>
       </div>
     );
   }
