@@ -1,4 +1,4 @@
-## Lights Out
+## [Lights Out](https://lights-out-a77ce.firebaseapp.com/)
 
 A logic/puzzle game. 
 
