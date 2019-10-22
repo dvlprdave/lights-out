@@ -3,12 +3,16 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-/* TODO: css variables for colors */
-
 .Board {
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+
+@media screen and (max-width: 780px) {
+  .board-wrapper {
+    margin: 3rem;
+  }
 }
 
 /* Table Cells */
@@ -44,6 +48,12 @@ table tr:last-child td:last-child {
   -moz-animation: neon-blue 2s linear infinite;
   -webkit-animation: neon-blue 2s linear infinite;
   -o-animation: neon-blue 2s linear infinite;
+}
+
+@media screen and (max-width: 780px) {
+  .neon-orange, .neon-blue {
+    font-size: 85px;
+  }
 }
 
 .winner .neon-blue,

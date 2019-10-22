@@ -108,7 +108,7 @@ class Board extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='board-wrapper'>
         {this.state.hasWon ? (
           <div className='winner'>
             <span className='neon-orange'>YOU</span>
